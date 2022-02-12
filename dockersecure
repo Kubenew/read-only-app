@@ -1,0 +1,14 @@
+$ docker diff k8s_nginx_nginx-7db9fccd9b-xyz 
+C /run 
+A /run/nginx.pid 
+A /run/secrets 
+A /run/secrets/kubernetes.io
+ A /run/secrets/kubernetes.io/serviceaccount 
+C /var 
+C /var/cache 
+C /var/cache/nginx 
+A /var/cache/nginx/client_temp 
+A /var/cache/nginx/fastcgi_temp 
+A /var/cache/nginx/proxy_temp 
+A /var/cache/nginx/scgi_temp
+A /var/cache/nginx/uwsgi_temp
